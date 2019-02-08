@@ -1,0 +1,10 @@
+[package]
+name = "blink-stm32f051"
+version = "0.1.0"
+authors = ["Bengt Marten Agren <marangisto@me.com>"]
+edition = "2018"
+
+[dependencies]
+cortex-m-rt = "0.6.7"
+panic-halt = "0.2.0"
+stm32f0x1 = { path = "../stm32f0x1" }
